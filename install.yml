@@ -1,0 +1,11 @@
+---
+- name: ads1115
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: True
+
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: adafruit-circuitpython-ads1x15

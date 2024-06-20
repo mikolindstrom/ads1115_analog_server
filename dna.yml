@@ -1,0 +1,11 @@
+---
+  name: "ads1115_analog_server"
+  type: "neuron"
+  author: "lindstrom"
+  
+  kalliope_supported_version:
+     - 0.7
+  tags:
+    - "utils"
+    - "analog"
+    - "GPIO"
